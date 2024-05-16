@@ -9,7 +9,7 @@ import About from './Components/About/About';
 
 let routers = createBrowserRouter([
     {path:'' , element: <Layout />, children: [
-        {path: 'home', element: <Home />},
+        {index:true , element: <Home />},
         {path: 'about', element: <About />},
         {path: 'gallery', element: <Gallery />},
         {path: 'contact', element: <Contact />},
